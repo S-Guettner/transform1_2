@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+}
+
+.translate:hover{
+    transform: translate(20px,20px);
+}
+.translateX:hover{
+    transform: translateX(-30px);
+}
+.translateY:hover{
+    transform: translateY(30px);
+}
+.rotate:hover{
+    transform: rotate(45deg);
+}
+.scale:hover{
+    transform: scaleY(1.2);
+}
+.skew:hover{
+    transform: skew(20deg,20deg);
+}
+
